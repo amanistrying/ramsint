@@ -12,14 +12,24 @@ body{
 }
 
 .cont{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
+}
+
+form button{
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    border: 0px;
+    background-color: #00bcd5;
+    color: azure;
+    font-size: large;
 }
 
 .card{
@@ -42,7 +52,7 @@ i{
 }
 
 h2{
-    color: aqua;
+    color: #00bcd5;
 }
 
 .cir{
@@ -57,8 +67,8 @@ h2{
 }
 
 .container{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -69,12 +79,28 @@ h2{
 }
 
 .message-box{
-    padding-right: 0px;
+    padding: 25px;
     width: 30%;
     align-items: center;
-    text-align: center;
     color: black;
     background-color: azure;
-    padding: 10px;
     z-index: 2;
+    text-align: center;
+}
+
+
+form input{
+    width: 80%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    padding-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.message-box h1{
+    padding-left: 24px;
+    text-align: left;
 }
