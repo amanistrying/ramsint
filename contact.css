@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+.cont{
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    width: 25%;
+}
+
+.card .card-left{
+    flex: 0 0 25%;
+}
+
+.card .card-right{
+    flex: 0 0 75%;
+}
+
+.cir{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(16, 130, 130);
+    margin-top: 15px;
+    text-align: center;
+}
