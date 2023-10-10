@@ -38,3 +38,9 @@
     border-radius: 0%;
     border: 0px;
 }
+
+#v-pills-home-tab, #v-pills-profile-tab{
+    width: 180px;
+    border-radius: 0%;
+}
+
