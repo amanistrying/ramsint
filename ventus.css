@@ -1,0 +1,35 @@
+
+#l1 .nav-link{
+    font-size: larger;
+    font-weight: 400;
+    color: white;
+    min-height: 100%;
+    border-radius: 0%;
+    font-family: "PT Sans Narrow";
+    border: 10px solid transparent;
+    height: 110px;
+}
+
+#l1 .nav-link:hover{
+    background-color: rgba(240, 248, 255, 0.164);
+    border-bottom: 10px solid rgb(42, 134, 240);
+}
+
+#head1{
+    background-color: #353535;
+    height: 100%;
+}
+
+.carousel-item{
+    height: 28rem;
+    background: #474646;
+}
+
+#cont1{
+    padding: 10px;
+    
+}
+
+#thin{
+
+}
