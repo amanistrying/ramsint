@@ -1,13 +1,14 @@
 
-#l1 .nav-link{
-    font-size: larger;
-    font-weight: 400;
-    color: white;
+#navbarsExample04{
     min-height: 100%;
-    border-radius: 0%;
-    font-family: "PT Sans Narrow";
-    border: 10px solid transparent;
-    height: 110px;
+}
+
+#l1 .nav-link{
+    min-height: 100%; 
+    text-align: center;
+    padding: 25px;
+    border-top: 10px solid rgba(42, 134, 0, 0);
+    border-bottom: 10px solid rgba(42, 134, 240, 0);
 }
 
 #l1 .nav-link:hover{
@@ -18,6 +19,7 @@
 #head1{
     background-color: #353535;
     height: 100%;
+    padding: 0;
 }
 
 #bottom1{
