@@ -98,6 +98,22 @@
     object-fit: cover;
   }
 
+
+  #swiper-ggrid {
+    max-height: 500px;
+  }
+
+  #swiper-ggrid .swiper-slide {
+    text-align: start;
+    background: #fff;
+    height: calc((100% - 30px) / 2);
+
+    /* Center slide text vertically */
+    display: flex;
+
+  }
+
+
   @media screen and (max-width: 768px){
         .swiper-slide{
             min-width: 100%;
