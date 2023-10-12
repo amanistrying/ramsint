@@ -114,8 +114,20 @@
   }
 
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 767px){
         .swiper-slide{
             min-width: 100%;
         }
+
+        #swiper-ggrid {
+            max-height: auto;
+          }
+
+          #swiper-ggrid .swiper-slide {
+            text-align: start;
+            height: 100%;
+        
+          }
+        
+
   }

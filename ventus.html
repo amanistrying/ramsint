@@ -785,14 +785,22 @@
                 <!-- Initialize Swiper -->
                 <script>
                   var swiper = new Swiper("#swiper-ggrid", {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                     grid: {
-                      rows: 2,
+                      rows: 1,
                     },
                     spaceBetween: 10,
                     pagination: {
                       el: ".swiper-pagination",
                       clickable: true,
+                    },
+                    breakpoints: {
+                        767: {
+                            slidesPerView: 2,
+                            grid: {
+                                rows: 2
+                            },
+                        }
                     },
                   });
                 </script>
