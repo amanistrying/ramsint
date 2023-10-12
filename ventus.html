@@ -11,6 +11,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./ventus.css">
     <link href='https://fonts.googleapis.com/css?family=PT Sans Narrow' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <title>Clone webs</title>
 </head>
@@ -266,9 +267,12 @@
     <div class="container text-center py-1">
         <p>RECENT WORK</p>
     </div>
-    <div class="container my-5">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
+
+    <div class="container">
+
+    <div class="swiper mySwiper" id="swiper-2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
                 <div class="card">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225"
                         src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
@@ -277,14 +281,34 @@
                     <title>Placeholder</title>
                     <div class="card-body">
                         <h5 class="card-title">WebFlow</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quis, quae
-                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores rem
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                            quis, quae
+                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                            rem
                             quibusdam ipsam dignissimos?</p>
 
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="swiper-slide">
+                <div class="card">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                        role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                    <title>Placeholder</title>
+                    <div class="card-body">
+                        <h5 class="card-title">WebFlow</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                            quis, quae
+                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                            rem
+                            quibusdam ipsam dignissimos?</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
                 <div class="card">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225"
                         src="https://img.freepik.com/free-psd/landing-page-template-family-house-renting_23-2148958549.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696809600&semt=ais"
@@ -293,31 +317,152 @@
                     <title>Placeholder</title>
                     <div class="card-body">
                         <h5 class="card-title">Houserrent</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quis, quae
-                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores rem
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                            quis, quae
+                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                            rem
                             quibusdam ipsam dignissimos?</p>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="swiper-slide">
+                <div class="col">
+                    <div class="card">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                        <title>Placeholder</title>
+                        <div class="card-body">
+                            <h5 class="card-title">Redwebflow v2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                                quis, quae
+                                aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                                rem
+                                quibusdam ipsam dignissimos?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
                 <div class="card">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                        src="https://img.freepik.com/free-psd/landing-page-template-family-house-renting_23-2148958549.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696809600&semt=ais"
                         role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
                         focusable="false">
                     <title>Placeholder</title>
                     <div class="card-body">
-                        <h5 class="card-title">Redwebflow v2</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quis, quae
-                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores rem
+                        <h5 class="card-title">Houserrent</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                            quis, quae
+                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                            rem
                             quibusdam ipsam dignissimos?</p>
                     </div>
                 </div>
             </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        src="https://img.freepik.com/free-psd/landing-page-template-family-house-renting_23-2148958549.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696809600&semt=ais"
+                        role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                    <title>Placeholder</title>
+                    <div class="card-body">
+                        <h5 class="card-title">Houserrent</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                            quis, quae
+                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                            rem
+                            quibusdam ipsam dignissimos?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="col">
+                    <div class="card">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                        <title>Placeholder</title>
+                        <div class="card-body">
+                            <h5 class="card-title">Redwebflow v2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                                quis, quae
+                                aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                                rem
+                                quibusdam ipsam dignissimos?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                        src="https://img.freepik.com/free-psd/landing-page-template-family-house-renting_23-2148958549.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696809600&semt=ais"
+                        role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                    <title>Placeholder</title>
+                    <div class="card-body">
+                        <h5 class="card-title">Houserrent</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                            quis, quae
+                            aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                            rem
+                            quibusdam ipsam dignissimos?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="col">
+                    <div class="card">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            src="https://images.unsplash.com/photo-1634084462412-b54873c0a56d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VicGFnZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                        <title>Placeholder</title>
+                        <div class="card-body">
+                            <h5 class="card-title">Redwebflow v2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+                                quis, quae
+                                aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel asperiores
+                                rem
+                                quibusdam ipsam dignissimos?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="swiper-pagination"></div>
+    </div></div>
 
-    <div class="container text-center py-1">
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            centeredSlides: true,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                800: {
+                    slidesPerView: 1.5,
+                },
+                1400: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+
+    <div class="container text-center mt-5">
         <p>OUR SERVICES</p>
     </div>
 
@@ -345,7 +490,8 @@
                     aria-labelledby="v-pills-home-tab" tabindex="0">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique placeat, quas
                         veritatis sequi atque qui tenetur nisi explicabo, vero consequuntur ratione, error ut dicta
-                        doloribus dolorem? Earum necessitatibus aliquam molestiae obcaecati accusamus! Labore, autem nam
+                        doloribus dolorem? Earum necessitatibus aliquam molestiae obcaecati accusamus! Labore, autem
+                        nam
                         expedita quisquam laboriosam nulla impedit adipisci assumenda minus eligendi totam excepturi
                         accusamus ex officia nesciunt!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, minima soluta assumenda porro
@@ -353,35 +499,43 @@
                         molestiae.</p>
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile1" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                    tabindex="0">He Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere itaque ducimus
+                    tabindex="0">He Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Facere itaque ducimus
                     molestias consectetur sunt eaque quasi, nesciunt eligendi inventore sapiente tempore provident
                     deleniti modi aspernatur impedit. Dolore odit nobis maiores!
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto aliquam soluta magnam,
                         asperiores possimus animi inventore cumque explicabo modi placeat.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et nam consequatur sunt doloribus
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde et nam consequatur sunt
+                        doloribus
                         deserunt, dicta id aliquam maiores ullam!</p>
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile2" role="tabpanel" aria-labelledby="v-pills-disabled-tab"
-                    tabindex="0"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere itaque ducimus
+                    tabindex="0"> Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Facere itaque ducimus
                     molestias consectetur sunt eaque quasi, nesciunt eligendi inventore sapiente tempore provident
                     deleniti modi aspernatur impedit. Dolore odit nobis maiores!</div>
                 <div class="tab-pane fade" id="v-pills-profile3" role="tabpanel" aria-labelledby="v-pills-messages-tab"
                     tabindex="0">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim expedita, eum sed dolore odio
                         voluptatibus quidem assumenda eos magnam ducimus dolor repellendus reprehenderit voluptatem
-                        asperiores quibusdam totam, mollitia aut voluptatum maiores. In cum quod molestiae voluptatem!
-                        At eveniet error vero, accusantium rem perspiciatis eum aliquam quas delectus tempora, eos et?
+                        asperiores quibusdam totam, mollitia aut voluptatum maiores. In cum quod molestiae
+                        voluptatem!
+                        At eveniet error vero, accusantium rem perspiciatis eum aliquam quas delectus tempora, eos
+                        et?
 
                     </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae tempore, harum,
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae tempore,
+                        harum,
                         veritatis aspernatur laudantium sed natus laborum, nisi corrupti officiis? Architecto quod
                         corporis eaque reprehenderit nam quisquam animi?</p>
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile4" role="tabpanel" aria-labelledby="v-pills-settings-tab"
                     tabindex="0">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam modi vero molestias eligendi
-                        magni expedita ullam explicabo provident voluptatum amet!um nam? Nostrum fuga dicta et facilis adipisci aut enim
-                        tempora! Autem perferendis quo id dolorum ducimus exercitationem qui aperiam aliquid facere.</p>
+                        magni expedita ullam explicabo provident voluptatum amet!um nam? Nostrum fuga dicta et
+                        facilis adipisci aut enim
+                        tempora! Autem perferendis quo id dolorum ducimus exercitationem qui aperiam aliquid facere.
+                    </p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
                         nobis optio.</p>
                 </div>
@@ -407,7 +561,8 @@
                                 <div class="col-12 col-lg-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Technology</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit.
                                             Velit
                                             quis, quae
                                             aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel</p>
@@ -429,7 +584,8 @@
                                 <div class="col-12 col-lg-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Virtual Reality</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit.
                                             Velit
                                             quis, quae
                                             aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel</p>
@@ -451,7 +607,8 @@
                                 <div class="col-12 col-lg-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Animation</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit.
                                             Velit
                                             quis, quae
                                             aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel</p>
@@ -473,7 +630,8 @@
                                 <div class="col-12 col-lg-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Marketing</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit.
                                             Velit
                                             quis, quae
                                             aliquid totam commodi repudiandae ipsa quod accusamus cupiditate vel</p>

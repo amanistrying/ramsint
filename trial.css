@@ -1,0 +1,11 @@
+.carousel-inner{
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel-item{
+    display: block;
+    flex: 0 0 50%;
+    min-height: fit-content;
+    margin-right: 0;
+}
